@@ -28,6 +28,26 @@ app.get('/project/:id', (req, res) => {
   res.render('project', {project})
 })
 
+app.use((req, res, next) => {
+  const err = new Error()
+  err.status = 404
+  err.message = 'Sorry, the page that you are looking for doesn\'t exist.'
+  console.error(`${err.message} Status Code: ${err.status}`)
+  next(err)
+})
+
+app.use((err, req, res, next) => {
+  if (err.status === 404) {
+    res.render('page-not-found', { err })
+  } else {
+    err.status = 500
+    err.message = 'There is something wrong with the code. Please try again later.'
+    console.log(`${err.message} Status Code: ${err.status}`)
+    res.render('error', { err })
+  }
+  return next()
+})
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
