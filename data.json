@@ -10,7 +10,7 @@
                 "JavaScript"
             ],
             "live_link": "https://tpo-ebrito.github.io/random-quote-generator/",
-            "github_link": "https://github.com/tpo-ebrito",
+            "github_link": "https://github.com/tpo-ebrito/random-quote-generator",
             "image_urls": [
                 "random-quote-generator-main.PNG",
                 "random-quote-generator-1.png"
@@ -26,7 +26,7 @@
                 "JavaScript"
             ],
             "live_link": "https://tpo-ebrito.github.io/data-pagination-and-filtering/",
-            "github_link": "https://github.com/tpo-ebrito",
+            "github_link": "https://github.com/tpo-ebrito/data-pagination-and-filtering",
             "image_urls": [
                 "data-pagination-and-filtering-main.PNG",
                 "data-pagination-and-filtering-2.PNG"
@@ -42,7 +42,7 @@
                 "JavaScript"
             ],
             "live_link": "https://tpo-ebrito.github.io/interactve-form/",
-            "github_link": "https://github.com/tpo-ebrito",
+            "github_link": "https://github.com/tpo-ebrito/interactve-form",
             "image_urls": [
                 "interactve-form-main.PNG",
                 "interactve-form-1.PNG"
@@ -58,7 +58,7 @@
                 "JavaScript"
             ],
             "live_link": "https://tpo-ebrito.github.io/OOP-Game-Show-App/",
-            "github_link": "https://github.com/tpo-ebrito",
+            "github_link": "https://github.com/tpo-ebrito/OOP-Game-Show-App",
             "image_urls": [
                 "phrase-hunter-main.PNG",
                 "phrase-hunter-1.PNG"
@@ -74,8 +74,8 @@
                 "JavaScript",
                 "API"
             ],
-            "live_link": "/",
-            "github_link": "https://github.com/tpo-ebrito",
+            "live_link": "https://tpo-ebrito.github.io/Public-API-Requests/",
+            "github_link": "https://github.com/tpo-ebrito/Public-API-Requests",
             "image_urls": [
                 "public-api-requests-main.PNG",
                 "public-api-requests-1.PNG"
