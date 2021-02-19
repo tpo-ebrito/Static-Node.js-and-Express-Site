@@ -5,12 +5,12 @@ block content
 
   article.portfolio-intro
     h1 Portfolio of Projects
-    p This portfolio is to showcase 5 apps i've been able to build using the various skills i've aquired through this program.
+    p This portfolio is to showcase 5 apps I've been able to build using the various skills I've aquired through this program.
 
   article.portfolio-project-thumbs
     .projects-box.box.grid
       each project in projects 
         .cell
           a(href=`/project/${project.id}`)
-            img.thumbnail(src=`/static/images/${project.image_urls[1]}`, alt=`Thumbnail ${project.project_name}`)
+            img.thumbnail(src=`static/images/${project.image_urls[1]}`, alt=`Thumbnail ${project.project_name}`)
             h5 #{project.project_name}

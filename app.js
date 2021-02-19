@@ -9,7 +9,6 @@ const aboutMe = {
 }
 
 app.use('/static', express.static('public'))
-
 app.set('view engine', 'pug')
 
 app.get('/', (req, res) => {
@@ -25,8 +24,8 @@ app.get('/contactus', (req, res) => {
 })
 
 app.get('/project/:id', (req, res) => {
-  const selectedIndex = global.parseInt(req.params.id) - 1
-  res.render('project', projects.projects[selectedIndex])
+  const project = projects.projects[global.parseInt(req.params.id - 1)]
+  res.render('project', {project})
 })
 
 app.listen(port, () => {

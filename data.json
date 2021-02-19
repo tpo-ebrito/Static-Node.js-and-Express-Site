@@ -5,64 +5,80 @@
             "project_name": "Random Quote Generator",
             "description": "A web browser that generates 5 random quotes on a button click",
             "technologies": [
-                "tech"
+                "HTML",
+                "CSS",
+                "JavaScript"
             ],
             "live_link": "/",
             "github_link": "https://github.com/tpo-ebrito",
             "image_urls": [
-                "../images/name/main.jpg"
+                "random-quote-generator-main.PNG",
+                "random-quote-generator-1.png"
             ]
         },
         {
             "id": "2",
-            "project_name": "name 2",
-            "description": "description",
+            "project_name": "Data Pagination and Filtering",
+            "description": "In this Project, I used pagination in order to enhace the usability of a web page.",
             "technologies": [
-                "tech"
+                "HTML",
+                "CSS",
+                "JavaScript"
             ],
             "live_link": "/",
             "github_link": "https://github.com/tpo-ebrito",
             "image_urls": [
-                "../images/name/main.jpg"
+                "data-pagination-and-filtering-main.PNG",
+                "data-pagination-and-filtering-2.PNG"
             ]
         },
         {
             "id": "3",
-            "project_name": "name 3",
-            "description": "description",
+            "project_name": "Interactive Form",
+            "description": "In this project I used my skills in order to update and engance a form so that it is engaging, interactive and easy to use.",
             "technologies": [
-                "tech"
+                "HTML",
+                "CSS",
+                "JavaScript"
             ],
             "live_link": "/",
             "github_link": "https://github.com/tpo-ebrito",
             "image_urls": [
-                "../images/name/main.jpg"
+                "interactve-form-main.PNG",
+                "interactve-form-1.PNG"
             ]
         },
         {
             "id": "4",
-            "project_name": "name 4",
-            "description": "description",
+            "project_name": "OOP Game Show App",
+            "description": "Phrase Hunter: A browser-based, word guessing game: \"Phrase Hunter.\" JavaScript and OOP (Object-Oriented Programming) was used in order to create this game. The game selects at random a hidden phrase, which you must try to guess, by clicking letters on an onscreen keyboard or your physical keyboard. ",
             "technologies": [
-                "tech"
+                "HTML",
+                "CSS",
+                "JavaScript"
             ],
             "live_link": "/",
             "github_link": "https://github.com/tpo-ebrito",
             "image_urls": [
-                "../images/name/main.jpg"
+                "phrase-hunter-main.PNG",
+                "phrase-hunter-1.PNG"
             ]
         },
         {
             "id": "5",
-            "project_name": "name 5",
-            "description": "description",
+            "project_name": "Public API Requests",
+            "description": "For this project, I built an app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. They need a smart way for employees to share contact information with each other.",
             "technologies": [
-                "tech"
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "API"
             ],
             "live_link": "/",
             "github_link": "https://github.com/tpo-ebrito",
             "image_urls": [
-                "../images/name/main.jpg"
+                "public-api-requests-main.PNG",
+                "public-api-requests-1.PNG"
             ]
         }
     ]
