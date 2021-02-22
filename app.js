@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
   res.render('index', projects)
 })
 
-// About route. Sets 
+// Sets about route.
 app.get('/about', (req, res) => {
   res.render('about')
 })
