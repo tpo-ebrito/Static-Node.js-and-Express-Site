@@ -1,5 +1,6 @@
 // Imports express
 
+const e = require('express')
 const express = require('express')
 const app = express()
 const port = 3000
@@ -27,9 +28,17 @@ app.get('/about', (req, res) => {
 })
 
 // project route. Displays each project in the data.json file.
-app.get('/project/:id', (req, res) => {
+app.get('/project/:id', (req, res, next) => {
   const project = projects.projects[global.parseInt(req.params.id - 1)]
-  res.render('project', { project })
+  if (project !== undefined) {
+    res.render('project', { project })
+  } else {
+    const err = new Error()
+    err.status = 404
+    err.message = 'The page you are looking for does not exist'
+    console.log(`${err.message} Status Code: ${err.status}`)
+    next(err)
+  }
 })
 
 // Errors handlers
